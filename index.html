@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html  lang="en">
+  <head >
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, height = device-height,=1.0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="header_section">
+      <div>
+        <img src="download.png" class="image_head" />
+      </div>
+      <div>
+        <ol class="Header">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="about.html">About My project</a></li>
+        </ol>
+      </div>
+    </section>
+    <section class="index_main_section">
+      <div class="left">
+        <div class="user_input">
+          <h1 class="main_heading">Age Calculator</h1>
+          <input type="date" class="user_age" />
+          <input
+            type="text"
+            placeholder="Enter Your First Name"
+            class="user_firstName"
+          />
+          <input
+            type="text"
+            placeholder="Enter Your Last Name"
+            class="user_lastName"
+          />
+          <button class="check_btn" onclick="calculateAge()">
+            Click Here to check Answer
+          </button>
+          <h2 class="prestige">Your Answer Will Appear Here</h2>
+        </div>
+        <div class="down_half">
+          <h1 class="answer">Your Answer Will Appear Here</h1>
+        </div>
+      </div>
+
+      <div class="image_table">
+        <aside class="side">
+          <table border="5" class="leaderboard">
+            <h2>leaderboard</h2>
+            <thead>
+              <th>Sr.no</th>
+
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Age</th>
+              <th>Month</th>
+              <th>User Type</th>
+            </thead>
+            <tbody class="details_result">
+
+            </tbody>
+          </table>
+        </aside>
+        <!-- <div class="image1">
+          <img src="image1.png" />
+        </div>
+      </div> -->
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
